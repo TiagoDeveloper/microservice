@@ -1,8 +1,7 @@
 const request = require('request');
 
 
-const apiKey = process.env.ZIPCODE_API_KEY || 'qMWo5T30XQ3pLDQHBQU1xteRMmP9oJI0WP66WFZ0tyMRcH8lHle5amT0LONozs8A';
-// "E1XcLodECEHyCKHeJNZcHBSJorNLumoLMGDb25BqkEgzIGR4phEW1SHNhiryCqbJ";
+const apiKey = process.env.ZIPCODE_API_KEY || "E1XcLodECEHyCKHeJNZcHBSJorNLumoLMGDb25BqkEgzIGR4phEW1SHNhiryCqbJ";
 
 const zipCodeURL = 'https://www.zipcodeapi.com/rest/';
 
